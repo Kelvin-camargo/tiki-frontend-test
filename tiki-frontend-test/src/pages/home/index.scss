@@ -1,8 +1,23 @@
+
+
 .homePage {
-    width: 100vw;
-    height: 100vh;
-    background-image: url('/src/assets/img/Background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ 
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: auto;   
+    z-index: -1;
+  }
+
+  .title{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+  }
 }

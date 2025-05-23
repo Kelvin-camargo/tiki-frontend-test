@@ -1,6 +1,6 @@
-import '../../assets/styles/reset.css'
+import '../../assets/styles/reset.scss'
 
-import './index.css'
+import './index.scss'
 function Carousel() {
   return (
     <>
