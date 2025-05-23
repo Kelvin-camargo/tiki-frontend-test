@@ -1,17 +1,18 @@
-import './index.css'
-import Header from '../../components/header/index.jsx'
-import Carousel from '../../components/carousel/index.jsx'
-import From from '../../components/form/index.jsx'
+import '../../assets/styles/reset.scss'
+import './index.scss'
+import Header from '../../components/Header/index.jsx'
+import Carousel from '../../components/Carousel/index.jsx'
+import Register from '../../components/Register/index.jsx'
+
+
+
 function Home() {
   return (
     <>
-      <div className="homePage">
-        
         <Header />
         <Carousel/>
-        <From/>
-        
-      </div>
+        <Register/>
+
     </>
   )
 }

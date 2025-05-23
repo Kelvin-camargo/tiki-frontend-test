@@ -1,11 +1,11 @@
 import '../../assets/styles/reset.scss'
 import './index.scss'
-function header() {
+function register() {
   return (
     <>
-        header
+        register
     </>
   )
 }
 
-export default header
+export default register

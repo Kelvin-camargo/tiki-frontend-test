@@ -1,5 +1,5 @@
 
-import Home from './pages/home'
+import Home from './pages/home/index'
 function App() {
   return (
     <>
