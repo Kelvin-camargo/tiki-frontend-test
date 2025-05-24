@@ -1,7 +1,7 @@
 import '../../assets/styles/reset.scss'
 import './index.scss'
-import Carousel from '../../components/Carousel/index.jsx'
-import Register from '../../components/Register/index.jsx'
+import Carousel from '../../components/Carousel/index.jsx';
+import Register from '../../components/Register/index.jsx';
 
 
 
@@ -9,10 +9,10 @@ function Home() {
   return (
       <div className='homePage'>
           <img src="/assets/img/Background.jpg" alt="background" class="background-image"></img>
-       <h1 className='title'>
-          <img src="/assets/img/svg/logo-tiki.svg" alt="titulo da página" />
-       </h1>
-    
+        <h1 className='title'>
+            <img src="/assets/img/svg/logo-tiki.svg" alt="titulo da página" />
+        </h1>
+      
         <Carousel/>
 
         <div className='enrollment'>
@@ -24,14 +24,14 @@ function Home() {
 
         <Register/>
 
-        <div className='footer'>
+        <footer className='footer'>
 
           <h2 className='footerTitle'>TEXTO LEGAL</h2>
-          
+
           <p className='footerText1'>
             Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Duls dul odio, ullamcorper vel leo sed, lacinia aliquam tortor.
-            Donec in nulla nisl. Integer imperdiet vulputate elit, sed varius sem commodo vel. Vestibulum ac lacus eros.<br></br>
-            Nulla facilisi. Morbi ornare, erat lobortis semper aliquet, ligula neque pulvinar tellus, a eleifend est ligula a nulla. 
+            Donec in nulla nisl. Integer imperdiet vulputate elit, sed varius sem commodo vel. Vestibulum ac lacus<br></br> 
+            eros.Nulla facilisi. Morbi ornare, erat lobortis semper aliquet, ligula neque pulvinar tellus, a eleifend est ligula a nulla. 
             Ut ut sapien lacinia odio ullamcorper aliquet. Nullam ac neque lorem. Nulla id erat in massa hendrerit<br></br> consequat.
           </p>
 
@@ -43,7 +43,7 @@ function Home() {
             pharetra, vitae cursus erat tincidunt.
           </p>
 
-          </div>
+          </footer>
       </div>
   )
 }
